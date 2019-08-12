@@ -3,6 +3,8 @@ var sass = require('gulp-sass');
 var notify = require("gulp-notify");
 var browserSync = require('browser-sync').create();
 
+sass.compiler = require('node-sass');
+
 
 // BrowerSync task
 // https://browsersync.io/docs/gulp#gulp-sass-css
